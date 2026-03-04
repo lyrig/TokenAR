@@ -1,0 +1,14 @@
+data
+pretrained_models
+checkpoints
+wandb
+__pycache__
+logs/
+*egg-info
+test*
+test/
+*.pt
+*.npy
+TODO
+*.json
+.ipynb_checkpoints

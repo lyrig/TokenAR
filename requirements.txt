@@ -1,0 +1,29 @@
+# TokenAR training requirements
+# Python 3.10 is recommended.
+#
+# The original file looked like a full environment export and mixed in many
+# unrelated packages (FastAPI, Gradio, vLLM, Ray, OpenAI SDK, etc.).
+# This list keeps only the dependencies that are actually needed by the
+# TokenAR training code under `autoregressive/train/`.
+
+torch==2.7.1
+torch-fidelity==0.3.0
+torchaudio==2.7.1
+torchmetrics==1.5.1
+torchvision==0.22.1
+numpy==1.26.4
+Pillow==11.3.0
+
+transformers==4.54.1
+datasets==2.21.0
+huggingface-hub==0.34.3
+accelerate==0.33.0
+sentencepiece==0.2.0
+safetensors==0.5.3
+
+beautifulsoup4==4.13.4
+ftfy==6.2.3
+
+natsort==8.4.0
+tensorboardX==2.6.4
+kornia==0.7.3
